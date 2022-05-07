@@ -97,11 +97,6 @@ function Home() {
     console.log("edit", updateUser);
   };
   console.log("List user", listUsers);
-
-  // // save localStorage
-  // useEffect(() => {
-  //   localStorage.setItem("users", JSON.stringify(listUsers));
-  // }, [listUsers]);
   return (
     <div className="home">
       {loading ? (
